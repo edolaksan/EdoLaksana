@@ -18,7 +18,7 @@ class Mahasiswa extends Seeder
         ],
         [   
             'npm'           => '2017051048',
-            'nama'          => 'kaneki',
+            'nama'          => 'akmal',
             'alamat'        => 'tokyo',
             'created_at'    =>  Time::now()
         ],
