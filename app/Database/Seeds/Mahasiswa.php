@@ -28,7 +28,12 @@ class Mahasiswa extends Seeder
             'alamat'        => 'Lampung',
             'created_at'    =>  Time::now()
         ],
-            
+        [   
+            'npm'           => '20170510022',
+            'nama'          => 'Ryout',
+            'alamat'        => 'Lampung',
+            'created_at'    =>  Time::now()
+        ],
         ];
 
 
