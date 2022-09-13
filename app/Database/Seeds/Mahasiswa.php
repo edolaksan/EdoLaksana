@@ -14,26 +14,21 @@ class Mahasiswa extends Seeder
             'npm'           => '2017051028',
             'nama'          => 'edo laksana',
             'alamat'        => 'jepang',
-            'created_at'    =>  Time::now()
+            'creater_at'    =>  Time::now()
         ],
         [   
             'npm'           => '2017051048',
-            'nama'          => 'akmal',
+            'nama'          => 'kaneki',
             'alamat'        => 'tokyo',
-            'created_at'    =>  Time::now()
+            'creater_at'    =>  Time::now()
         ],
         [   
             'npm'           => '2017051001',
             'nama'          => 'Ryouta',
             'alamat'        => 'Lampung',
-            'created_at'    =>  Time::now()
+            'creater_at'    =>  Time::now()
         ],
-        [   
-            'npm'           => '20170510022',
-            'nama'          => 'Ryout',
-            'alamat'        => 'Lampung',
-            'created_at'    =>  Time::now()
-        ],
+            
         ];
 
 
