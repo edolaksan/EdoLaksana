@@ -12,6 +12,6 @@ class Mahasiswa extends Model
     protected $useTimetamps     = true;
     protected $allowedFields      = ['npm', 'nama', 'alamat'];
     protected $dateformat       = 'datetime';
-    protected $createdFields    = 'created_at';
+    protected $createdFields    = 'creater_at';
     protected $updatedFields    = 'updated_at';
 }
