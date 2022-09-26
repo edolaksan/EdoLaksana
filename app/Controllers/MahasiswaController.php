@@ -34,7 +34,7 @@ class MahasiswaController extends BaseController
     public function store()
     {
         if (!$this->validate([
-            'npm' => 'require|numeric',
+            'npm' => 'required|numeric',
             'nama' => 'required|string',
             'alamat' => 'required',
         ])) {
@@ -76,7 +76,7 @@ class MahasiswaController extends BaseController
     public function update($id)
     {
         if (!$this->validate([
-            'npm' => 'require|numeric',
+            'npm' => 'required|numeric',
             'nama' => 'required|string',
             'alamat' => 'required',
         ])) {

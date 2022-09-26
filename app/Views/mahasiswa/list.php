@@ -22,7 +22,7 @@
                     <td><?= $mhs['creater_at'] ?></td>
                     <td>
                         <div class="d-flex">
-                            <a class="btn btn-warning mr-3" href=/edit/<?= $mhs['id'] ?>">Edit</a>
+                            <a class="btn btn-warning mr-3" href="/edit/<?= $mhs['id'] ?>">Edit</a>
                         </div>
                         <form action="/delete/<?= $mhs['id'] ?>" method="post">
                             <input type="hidden" name="_method" value="DELETE">
