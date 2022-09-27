@@ -1,3 +1,6 @@
+<?= $this->extend('templates/template'); ?>
+<?= $this->section('content'); ?>
+
 <div class="p-4">
     <form action="/store" method="post">
         <div class="form-group">
@@ -14,8 +17,13 @@
             <label for="alamat">Alamat</label>
             <input type="text" name="alamat" class="form-control" id="alamat">
         </div>
-
+        <div class="form-group">
+            <label for="alamat">Deskripsi</label>
+            <input type="text" name="deskripsi" class="form-control" id="deskripsi">
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
 
     </form>
 </div>
+
+<?= $this->endsection(); ?>

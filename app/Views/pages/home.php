@@ -1,1 +1,6 @@
-<h3>halaman home</h3>
+<?= $this->extend('template/template'); ?>
+<?= $this->section('content'); ?>
+
+ini home
+
+<?= $this->endsection(); ?>

@@ -1,1 +1,6 @@
-<h3>halaman about</h3>
+<?= $this->extend('templates/template'); ?>
+<?= $this->section('content'); ?>
+
+ini about
+
+<?= $this->endsection(); ?>
